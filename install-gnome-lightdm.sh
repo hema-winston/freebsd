@@ -4,7 +4,7 @@
 set -e
 
 echo "=========================================================="
-echo " Custom FreeBSD GNOME + LightDM + NVIDIA-DRM Script      "
+echo " Custom FreeBSD GNOME + LightDM + NVIDIA-DRM Script       "
 echo "=========================================================="
 
 # 1. Update package database and upgrade existing system components
@@ -95,6 +95,6 @@ fc-cache -f
 
 echo ""
 echo "=========================================================="
-echo " SUCCESS! GNOME with LightDM and NVIDIA setups complete. "
-echo " Please execute: reboot                                  "
+echo " SUCCESS! GNOME with LightDM and NVIDIA setups complete.  "
+echo " Please execute: reboot                                   "
 echo "=========================================================="
