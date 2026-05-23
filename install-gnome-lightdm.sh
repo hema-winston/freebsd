@@ -16,7 +16,7 @@ env ASSUME_ALWAYS_YES=yes pkg upgrade
 # 2. Install desktop core, utilities, fonts, LightDM, and NVIDIA DRM tools
 echo ""
 echo "[2/9] Installing applications, LightDM, GNOME, Fonts, and Drivers..."
-env ASSUME_ALWAYS_YES=yes pkg install xorg gnome lightdm lightdm-gtk-greeter nvidia-drm-kmod nvidia-settings nvidia-xconfig nano gedit sudo mkfontscale urw-base35-fonts
+env ASSUME_ALWAYS_YES=yes pkg install xorg gnome lightdm lightdm-gtk-greeter nvidia-drm-kmod nvidia-settings nvidia-xconfig nano gedit sudo mkfontscale urw-base35-fonts noto firefox vlc
 
 # 3. Append background services and modules to /etc/rc.conf via sysrc
 echo ""
